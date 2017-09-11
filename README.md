@@ -1,6 +1,6 @@
 # Amforth-utilities
 
-Forth files written for use with Amforth on ATMega
+Forth files written for use with Amforth on ATMega328P Arduino or similar
 
 dot-2dr.frt  (.2dr)
 
