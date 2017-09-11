@@ -57,7 +57,7 @@
 ;
 
 \ Get the temperature in hundredths of a degC (no CRC check)
-: get.temp
+: temp.get
     (   --  T_hundredths )
     1w.convert 1w.getscratch
     7 0 do drop loop \ Drop CRC and c2 - c7
@@ -66,7 +66,7 @@
 
 \ Print the temperature in decimal format e.g. 14.25 degC
 : .temp
-     (  --  )
-    get.temp 7 .2dr ."  degC"  \ Print temperature justified right 7 places
+    (  --  )
+    temp.get 7 .2dr ."  degC"  \ Print temperature justified right 7 places
 ;
 
