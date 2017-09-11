@@ -9,9 +9,11 @@ dot-2dr.frt  (.2dr)
 
 dot-temp.frt  (.temp)
 
-	Prints the temperature read by a DS18B20 sensor connected to Arduino pin 12 to two decimal places (Requires dot-2dr.frt)
+	Prints the temperature read by a DS18B20 sensor connected to Arduino pin 12
+	to two decimal places. (Requires dot-2dr.frt)
 
 dot-vcc.frt  (.vcc)
 
-	Prints out the current Vcc of an ATMega by comparing it with the internal 1.1V reference
+	Prints out the current Vcc of an ATMega by comparing it with the internal 1.1V reference.
+	(Requires dot-2dr.frt)
 
