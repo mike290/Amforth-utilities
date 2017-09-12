@@ -1,6 +1,6 @@
 # Amforth-utilities
 
-Forth files written for use with Amforth on ATMega328P Arduino or similar
+Forth files written for use with Amforth on ATMega328P Arduino or similar. Requires Amforth (http://amforth.sourceforge.net/) and use of amforth-shell.py to resolve register names.
 
 dot-2dr.frt  (.2dr)
 
